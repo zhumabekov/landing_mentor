@@ -1,0 +1,45 @@
+.mentors__container{
+    display: flex;
+    color: $second-color;
+    column-gap: 100px;
+    justify-content: space-between;
+}
+.mentor__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    row-gap: 20px;
+}
+.mentor__title{
+    font-weight: 500;
+    font-size: 3.625rem;
+    line-height: 100%;
+}
+.mentor__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.mentor__btn{
+    margin-top: 50px;
+}
+.btn_green{
+    background-color: $main-color;
+}
+.mentor__items{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 570px;
+}
+.mentor__item{
+    max-width: 170px;
+}
+.mentor__data{
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 130%;
+    text-align: center;
+}
