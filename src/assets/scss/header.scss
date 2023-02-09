@@ -132,10 +132,9 @@
     align-items: center;
     justify-content: center;
 }
-.header__logo{
-    text-transform: capitalize;
-    font-weight: 500;
-    font-size: 2rem;
+.logo{
+    display: flex;
+    column-gap: 12px;
 }
 .header__title{
     font-weight: 500;

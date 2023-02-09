@@ -1,31 +1,33 @@
-.formats{
-    background-color: $main-color;
+.action{
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 120px 0;
 }
-.formats__container{
+.action__container{
     display: flex;
-    color: $third-color;
+    color: $second-color;
     column-gap: 100px;
-    justify-content: space-between;
+    justify-content: end;
 }
-
-.format__description{
+.action__description{
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 550px;
     row-gap: 20px;
 }
-.format__title{
+.action__title{
     font-weight: 500;
     font-size: 3.625rem;
-    line-height: 100%;
+    line-height: 120%;
 }
-.format__text{
+.action__text{
     font-weight: 400;
     line-height: 150%;
 }
-.format__btn{
+.action__btn{
     margin-top: 50px;
 }
 .format__picture{
