@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <header class="course-header">
+        <div class="container course-header__container">
+            @@include('template/partials/nav__secondary_page.html')
+            @@include('template/partials/breadcrumb.html')
+            @@include('template/partials/course_info.html')
+            @@include('template/partials/course_indicators.html')
+        </div>
+    </header>
+    <main class="main">
+        @@include('template/partials/course__format.html')
+        @@include('template/partials/course__content.html')
+        @@include('template/partials/course__action.html')
+    </main>
+    @@include('template/partials/footer.html')
+</body>
+</html>

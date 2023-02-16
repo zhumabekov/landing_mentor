@@ -28,3 +28,8 @@ a{
     row-gap: 120px;
     padding: 120px 0;
 }
+.course-header__container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

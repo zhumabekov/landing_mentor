@@ -1,0 +1,6 @@
+.course__picture{
+    @include picture-with-frame(540px, 286px, 120px, true);
+}
+.row_reverse{
+    flex-direction: row-reverse;
+}

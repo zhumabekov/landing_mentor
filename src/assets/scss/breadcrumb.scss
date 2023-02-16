@@ -1,0 +1,17 @@
+.breadcrumb{
+    list-style: none;
+    display: flex;
+}
+.breadcrumb li+li::before{
+    content: url(../img/right.svg);
+    padding: 15px;
+}
+.breadcrumb__link{
+    color: $second-color;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 100%;
+}
+.breadcrumb__item:last-child .breadcrumb__link{
+    opacity: .5;
+}

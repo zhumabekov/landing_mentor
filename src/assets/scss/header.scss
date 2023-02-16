@@ -11,9 +11,14 @@
 .navigation{
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 100%;
     height: $nav-height;
+}
+.navigation_center{
+    justify-content: center;
+}
+.navigation_between{
+    justify-content: space-between;
 }
 .navigation__list{
     display: flex;
@@ -92,7 +97,7 @@
         width: $w;
         height: $h;
         @if $reverse {
-            border-radius: 80px 0 0 0;
+            border-radius: $r 0 0 0;
             top: 0;
             right: 30px;
         } @else {
