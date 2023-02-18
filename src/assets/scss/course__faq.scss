@@ -1,0 +1,48 @@
+.course-faq{
+    color: $color-violet;
+}
+.course-faq__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+.course-faq__title{
+    font-weight: 500;
+    font-size: 3.625rem;
+    line-height: 120%;
+}
+.course-faq__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.course-faq__item{
+    width: 850px;
+    background: $color-white;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: 400;
+    line-height: 130%;
+    summary{
+        font-weight: 500;
+        font-size: 1.375rem;
+        line-height: 130%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &::after{
+            content: url("../img/open.svg");
+        }
+    }
+    &[open] > summary::after{
+        content: url("../img/close.svg");
+    }
+    p{
+        width: 90%;
+        margin-top: 15px;
+    }
+}

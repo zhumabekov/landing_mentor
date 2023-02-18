@@ -9,7 +9,7 @@ body{
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     font-size: $font-size;
-    color: $third-color;
+    color: $color-white;
 }
 .container{
     width: $container-width;
@@ -20,7 +20,7 @@ ul li{
 }
 a{
     text-decoration: none;
-    color: $third-color;
+    color: $color-white;
 }
 .main{
     display: flex;

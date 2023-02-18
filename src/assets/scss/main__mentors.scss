@@ -1,6 +1,6 @@
 .mentors__container{
     display: flex;
-    color: $second-color;
+    color: $color-violet;
     column-gap: 100px;
     justify-content: space-between;
 }
@@ -25,7 +25,10 @@
     margin-top: 50px;
 }
 .btn_green{
-    background-color: $main-color;
+    background-color: $color-green;
+}
+.btn_green:hover{
+    background-color: $color-green_hover;
 }
 .mentor__items{
     display: flex;

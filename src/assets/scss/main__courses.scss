@@ -3,14 +3,14 @@
     flex-direction: column;
     row-gap: 60px;
     align-items: center;
-    color: $second-color;
+    color: $color-violet;
 }
 .course__title{
     font-weight: 500;
     font-size: 3.625rem;
     line-height: 100%;
     text-align: center;
-    color: $second-color;
+    color: $color-violet;
 }
 .course__list{
     display: flex;
@@ -26,7 +26,7 @@
     row-gap: 15px;
     padding: 20px;
     max-width: 270px;
-    background: $third-color;
+    background: $color-white;
     box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
     border-radius: 10px;
 }
