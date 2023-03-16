@@ -1,6 +1,8 @@
 .indicators__container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 .indicator__item{
     display: flex;
@@ -22,4 +24,9 @@
     font-size: .875rem;
     line-height: 120%;
     text-align: center;
+}
+@media (max-width: 1110px) {
+    .indicators__container{
+        justify-content: center;
+    }
 }

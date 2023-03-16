@@ -4,3 +4,8 @@
 .row_reverse{
     flex-direction: row-reverse;
 }
+@media (max-width: 1150px) {
+    .course__picture{
+        display: none;
+    }
+}

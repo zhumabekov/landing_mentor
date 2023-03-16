@@ -34,6 +34,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        column-gap: 10px;
         &::after{
             content: url("../img/open.svg");
         }
@@ -44,5 +45,18 @@
     p{
         width: 90%;
         margin-top: 15px;
+    }
+}
+@media (max-width: 880px) {
+    .course-faq__item{
+        width: 90%;
+    }
+    .course-faq__title{
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .course-faq__title{
+        font-size: 3rem;
     }
 }

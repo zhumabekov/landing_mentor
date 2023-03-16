@@ -12,8 +12,9 @@ body{
     color: $color-white;
 }
 .container{
-    width: $container-width;
+    max-width: $container-width;
     margin: 0 auto;
+    padding: 0 10px;
 }
 ul li{
     list-style: none;
@@ -21,7 +22,7 @@ ul li{
 a{
     text-decoration: none;
     color: $color-white;
-}
+} 
 .main{
     display: flex;
     flex-direction: column;

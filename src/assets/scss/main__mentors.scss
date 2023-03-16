@@ -46,3 +46,28 @@
     line-height: 130%;
     text-align: center;
 }
+@media (max-width: 1190px) {
+    .mentors__container{
+        column-gap: 30px;
+    }
+}
+@media (max-width: 1120px) {
+    .mentors__container{
+        justify-content: center;
+    }
+    .mentor__items{
+        display: none;
+    }
+    .mentor__description{
+        align-items: center;
+        max-width: 80%;
+    }
+    .mentor__text, .mentor__title{
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .mentor__title{
+        font-size: 3rem;
+    }
+}

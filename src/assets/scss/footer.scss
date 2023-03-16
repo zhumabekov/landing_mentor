@@ -12,6 +12,8 @@
 .footer__container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .footer__item{
     display: flex;
@@ -66,4 +68,29 @@
     display: flex;
     column-gap: 30px;
     cursor: pointer;
+}
+@media (max-width: 900px) {
+    .footer__item:not(.main__link, .mail__block){
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .footer__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__item{
+        width: 100%;
+        text-align: center;
+    }
+    .link__title, .networks__block{
+        justify-content: center;
+    }
+    .footer__doc{
+        flex-direction: column;
+        gap: 10px;
+        div{
+            text-align: center;
+        }
+    }
 }

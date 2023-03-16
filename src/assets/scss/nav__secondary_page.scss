@@ -3,3 +3,10 @@
         color: $color-violet;
     }
 }
+@media (max-width: 700px) {
+    .course-header{
+        .navigation__link{
+            color: $color-white;
+        }
+    }
+}

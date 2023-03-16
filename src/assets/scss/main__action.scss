@@ -33,3 +33,25 @@
 .format__picture{
     @include picture-with-frame(470px, 332px, 125px);
 }
+@media (max-width: 1120px) {
+    .action{
+        background-image: none;
+        background-color: $color-green;
+    }
+    .action__container{
+        justify-content: center;
+        color: $color-white;
+    }
+    .action__description{
+        align-items: center;
+        max-width: 80%;
+    }
+    .action__text, .action__title{
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .action__title{
+        font-size: 3rem;
+    }
+}

@@ -1,7 +1,8 @@
 .skills{
     display: flex;
     justify-content: space-between;
-    column-gap: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
     width: 100%;
 }
 .skill__item{
@@ -20,4 +21,9 @@
     display: flex;
     align-items: center;
     column-gap: 8px;
+}
+@media (max-width: 1190px) {
+    .skills{
+        justify-content: center;
+    }
 }

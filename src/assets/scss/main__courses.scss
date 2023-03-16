@@ -15,7 +15,8 @@
 .course__list{
     display: flex;
     justify-content: space-between;
-    column-gap: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
     width: 100%;
 }
 .course__item{
@@ -29,4 +30,14 @@
     background: $color-white;
     box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
     border-radius: 10px;
+}
+@media (max-width: 1200px) {
+    .course__list{
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    .course__title{
+        font-size: 3rem;
+    }
 }

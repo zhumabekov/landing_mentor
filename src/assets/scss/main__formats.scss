@@ -31,3 +31,23 @@
 .format__picture{
     @include picture-with-frame(470px, 332px, 125px);
 }
+@media (max-width: 1120px) {
+    .formats__container{
+        justify-content: center;
+    }
+    .format__picture{
+        display: none;
+    }
+    .format__description{
+        align-items: center;
+        max-width: 80%;
+    }
+    .format__text, .format__title{
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .format__title{
+        font-size: 3rem;
+    }
+}
